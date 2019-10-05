@@ -5,7 +5,7 @@ import json
 
 mongo_client = MongoClient('localhost', 27017)
 mongo_db = mongo_client['inatel']
-mongo_collection = mongo_db['sensor']
+mongo_collection = mongo_db['in242']
 
 
 def on_message(mqtt_client, obj, msg):

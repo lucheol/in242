@@ -10,3 +10,27 @@
 - [Anaconda](https://www.anaconda.com/distribution/)
 - [MQTTBox](http://workswithweb.com/mqttbox.html)
 - [Robot 3T](https://robomongo.org/download)
+
+## Comandos
+
+- Comandos basicos:
+
+`
+cd --> acessa a pasta
+cd .. --> voltar para a pasta anterior
+ls --> lista as pastas
+
+
+- Para subir os containers `sudo docker-compose up -d`
+- Criar o ambiente virtual: 
+``
+cd in242/
+virtualenv -p python3.7 env
+``
+- Para habilitar o venv: `source env/bin/activate`
+- Para iiiiinstalar as libs: `(env) pip install -r requirements.txt`
+- Para sair do env: `deactivate`
+- Para rodar o producer: `(env) python producer/producer.py`
+- Para rodar o consumer: `(env) python consumer/consumer.py`
+- Para rodar o jupyter: `(env) jupyter notebook`
+
