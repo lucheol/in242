@@ -34,3 +34,11 @@ virtualenv -p python3.7 env
 - Para rodar o consumer: `(env) python consumer/consumer.py`
 - Para rodar o jupyter: `(env) jupyter notebook`
 
+## Projeto da disciplina
+
+1. Instalar o MQTT e Mongo usando AWS e deixar disponivel publicamente.
+2. Usar o producer e consumer para gerar a cada segundo 1h de dado de temperatura (15~30o) enviando para o MQTT e armazenando no Mongo.
+3. Consumir o resultado do Mongo e salvar em CSV/XLS.
+4. Fazer a analise dos dados do CSV em um notebook (media, minuto com a maior media, dv)
+5. Subir o codigo, arquivos do docker, notebook e csv no github.
+6. Enviar o link para lucio.oliveira@inatel.br ate o dia 5/10.
